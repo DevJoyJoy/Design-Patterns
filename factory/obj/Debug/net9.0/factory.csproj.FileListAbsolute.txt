@@ -1,0 +1,15 @@
+C:\Users\disrct\Desktop\Design-Patterns\factory\bin\Debug\net9.0\factory.exe
+C:\Users\disrct\Desktop\Design-Patterns\factory\bin\Debug\net9.0\factory.deps.json
+C:\Users\disrct\Desktop\Design-Patterns\factory\bin\Debug\net9.0\factory.runtimeconfig.json
+C:\Users\disrct\Desktop\Design-Patterns\factory\bin\Debug\net9.0\factory.dll
+C:\Users\disrct\Desktop\Design-Patterns\factory\bin\Debug\net9.0\factory.pdb
+C:\Users\disrct\Desktop\Design-Patterns\factory\obj\Debug\net9.0\factory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\disrct\Desktop\Design-Patterns\factory\obj\Debug\net9.0\factory.AssemblyInfoInputs.cache
+C:\Users\disrct\Desktop\Design-Patterns\factory\obj\Debug\net9.0\factory.AssemblyInfo.cs
+C:\Users\disrct\Desktop\Design-Patterns\factory\obj\Debug\net9.0\factory.csproj.CoreCompileInputs.cache
+C:\Users\disrct\Desktop\Design-Patterns\factory\obj\Debug\net9.0\factory.sourcelink.json
+C:\Users\disrct\Desktop\Design-Patterns\factory\obj\Debug\net9.0\factory.dll
+C:\Users\disrct\Desktop\Design-Patterns\factory\obj\Debug\net9.0\refint\factory.dll
+C:\Users\disrct\Desktop\Design-Patterns\factory\obj\Debug\net9.0\factory.pdb
+C:\Users\disrct\Desktop\Design-Patterns\factory\obj\Debug\net9.0\factory.genruntimeconfig.cache
+C:\Users\disrct\Desktop\Design-Patterns\factory\obj\Debug\net9.0\ref\factory.dll
