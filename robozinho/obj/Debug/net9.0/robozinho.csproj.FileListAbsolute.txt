@@ -1,0 +1,15 @@
+C:\Users\disrct\Desktop\robozinho\bin\Debug\net9.0\robozinho.exe
+C:\Users\disrct\Desktop\robozinho\bin\Debug\net9.0\robozinho.deps.json
+C:\Users\disrct\Desktop\robozinho\bin\Debug\net9.0\robozinho.runtimeconfig.json
+C:\Users\disrct\Desktop\robozinho\bin\Debug\net9.0\robozinho.dll
+C:\Users\disrct\Desktop\robozinho\bin\Debug\net9.0\robozinho.pdb
+C:\Users\disrct\Desktop\robozinho\obj\Debug\net9.0\robozinho.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\disrct\Desktop\robozinho\obj\Debug\net9.0\robozinho.AssemblyInfoInputs.cache
+C:\Users\disrct\Desktop\robozinho\obj\Debug\net9.0\robozinho.AssemblyInfo.cs
+C:\Users\disrct\Desktop\robozinho\obj\Debug\net9.0\robozinho.csproj.CoreCompileInputs.cache
+C:\Users\disrct\Desktop\robozinho\obj\Debug\net9.0\robozinho.sourcelink.json
+C:\Users\disrct\Desktop\robozinho\obj\Debug\net9.0\robozinho.dll
+C:\Users\disrct\Desktop\robozinho\obj\Debug\net9.0\refint\robozinho.dll
+C:\Users\disrct\Desktop\robozinho\obj\Debug\net9.0\robozinho.pdb
+C:\Users\disrct\Desktop\robozinho\obj\Debug\net9.0\robozinho.genruntimeconfig.cache
+C:\Users\disrct\Desktop\robozinho\obj\Debug\net9.0\ref\robozinho.dll
