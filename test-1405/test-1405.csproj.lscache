@@ -55,11 +55,7 @@ TemporaryDependencyNodeTargetIdentifier=net9.0
 /warnaserror+:NU1605,SYSLIB0011
 
 [sourceFiles]
-Boss/
- AngryBoss.cs
- Boss.cs
- EventManager.cs
- IBoss.cs
+Boss/Boss.cs
 Guilda/
  EventManager.cs
  Guilda.cs

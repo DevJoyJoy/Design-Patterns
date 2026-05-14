@@ -1,0 +1,15 @@
+C:\Users\disrct\Desktop\Design-Patterns\test-1405\bin\Debug\net9.0\test-1405.exe
+C:\Users\disrct\Desktop\Design-Patterns\test-1405\bin\Debug\net9.0\test-1405.deps.json
+C:\Users\disrct\Desktop\Design-Patterns\test-1405\bin\Debug\net9.0\test-1405.runtimeconfig.json
+C:\Users\disrct\Desktop\Design-Patterns\test-1405\bin\Debug\net9.0\test-1405.dll
+C:\Users\disrct\Desktop\Design-Patterns\test-1405\bin\Debug\net9.0\test-1405.pdb
+C:\Users\disrct\Desktop\Design-Patterns\test-1405\obj\Debug\net9.0\test-1405.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\disrct\Desktop\Design-Patterns\test-1405\obj\Debug\net9.0\test-1405.AssemblyInfoInputs.cache
+C:\Users\disrct\Desktop\Design-Patterns\test-1405\obj\Debug\net9.0\test-1405.AssemblyInfo.cs
+C:\Users\disrct\Desktop\Design-Patterns\test-1405\obj\Debug\net9.0\test-1405.csproj.CoreCompileInputs.cache
+C:\Users\disrct\Desktop\Design-Patterns\test-1405\obj\Debug\net9.0\test-1405.sourcelink.json
+C:\Users\disrct\Desktop\Design-Patterns\test-1405\obj\Debug\net9.0\test-1405.dll
+C:\Users\disrct\Desktop\Design-Patterns\test-1405\obj\Debug\net9.0\refint\test-1405.dll
+C:\Users\disrct\Desktop\Design-Patterns\test-1405\obj\Debug\net9.0\test-1405.pdb
+C:\Users\disrct\Desktop\Design-Patterns\test-1405\obj\Debug\net9.0\test-1405.genruntimeconfig.cache
+C:\Users\disrct\Desktop\Design-Patterns\test-1405\obj\Debug\net9.0\ref\test-1405.dll
