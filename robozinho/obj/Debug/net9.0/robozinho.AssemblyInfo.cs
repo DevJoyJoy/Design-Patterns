@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("robozinho")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+081ad1a81cb435486163f7234d2128c0e891d951")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+212418a8628fe371dc36ea73213950c00dd28b46")]
 [assembly: System.Reflection.AssemblyProductAttribute("robozinho")]
 [assembly: System.Reflection.AssemblyTitleAttribute("robozinho")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

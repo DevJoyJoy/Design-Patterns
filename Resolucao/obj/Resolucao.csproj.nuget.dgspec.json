@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\disrct\\Desktop\\Design-Patterns\\newExamples\\newExamples.csproj": {}
+    "C:\\Users\\disrct\\Desktop\\Design-Patterns\\Resolucao\\Resolucao.csproj": {}
   },
   "projects": {
-    "C:\\Users\\disrct\\Desktop\\Design-Patterns\\newExamples\\newExamples.csproj": {
+    "C:\\Users\\disrct\\Desktop\\Design-Patterns\\Resolucao\\Resolucao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Design-Patterns\\newExamples\\newExamples.csproj",
-        "projectName": "newExamples",
-        "projectPath": "C:\\Users\\disrct\\Desktop\\Design-Patterns\\newExamples\\newExamples.csproj",
+        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Design-Patterns\\Resolucao\\Resolucao.csproj",
+        "projectName": "Resolucao",
+        "projectPath": "C:\\Users\\disrct\\Desktop\\Design-Patterns\\Resolucao\\Resolucao.csproj",
         "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\disrct\\Desktop\\Design-Patterns\\newExamples\\obj\\",
+        "outputPath": "C:\\Users\\disrct\\Desktop\\Design-Patterns\\Resolucao\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
