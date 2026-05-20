@@ -78,7 +78,7 @@ sistemas/factories/
  WindowsFactory.cs
 
 [metadataReferences]
-../../../../../../Program Files/dotnet/packs/Microsoft.NETCore.App.Ref/9.0.15/ref/net9.0/
+../../../../../../Program Files/dotnet/packs/Microsoft.NETCore.App.Ref/9.0.16/ref/net9.0/
  Microsoft.CSharp.dll
  Microsoft.VisualBasic.Core.dll
  Microsoft.VisualBasic.dll
@@ -245,17 +245,17 @@ sistemas/factories/
  WindowsBase.dll
 
 [analyzerReferences]
-../../../../../../Program Files/dotnet/packs/Microsoft.NETCore.App.Ref/9.0.15/analyzers/dotnet/cs/
+../../../../../../Program Files/dotnet/packs/Microsoft.NETCore.App.Ref/9.0.16/analyzers/dotnet/cs/
  Microsoft.Interop.ComInterfaceGenerator.dll
  Microsoft.Interop.JavaScript.JSImportGenerator.dll
  Microsoft.Interop.LibraryImportGenerator.dll
  Microsoft.Interop.SourceGeneration.dll
  System.Text.Json.SourceGeneration.dll
  System.Text.RegularExpressions.Generator.dll
-../../../../../../Program Files/dotnet/sdk/9.0.116/Sdks/Microsoft.NET.Sdk/analyzers/
+../../../../../../Program Files/dotnet/sdk/9.0.117/Sdks/Microsoft.NET.Sdk/analyzers/
  Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll
  Microsoft.CodeAnalysis.NetAnalyzers.dll
 
 [analyzerConfigFiles]
-../../../../../../Program Files/dotnet/sdk/9.0.116/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_9_default.globalconfig
+../../../../../../Program Files/dotnet/sdk/9.0.117/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_9_default.globalconfig
 obj/Debug/net9.0/factory.GeneratedMSBuildEditorConfig.editorconfig
