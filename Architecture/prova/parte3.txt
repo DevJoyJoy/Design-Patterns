@@ -1,0 +1,47 @@
+//----------------------------------------------------- 1 -----------------------------------------------------
+
+** Por que retornar entidades diretamente em uma API pode causar problemas? **
+- Porque quando a entidade vem de forma direta até a API, ela virá com todas as informações, sem tratamentos e 
+sem segurança, logo as informações dessa entidade serão de fácil acesso para qualquer pessoa má intencionada, o 
+que quebraria a segurança do usuário que poderia ter seus dados vazados por um pequeno descuido no tratamento 
+dos dados dentro da aplicação.
+
+//----------------------------------------------------- 2 -----------------------------------------------------
+** O que significa dizer que uma classe possui baixa coesão? **
+- Significa que as funcionalidades de uma classe estão muito próximas umas das outras, num sentido em que não é 
+necessário e que, quando precisarmos alterar uma dessa funcionalidades, as outras também serão afetadas 
+desnecessariamente por conta dessa proximidade desnecessária.
+
+//----------------------------------------------------- 3 -----------------------------------------------------
+** Por que interfaces muito grandes podem causar problemas? **
+- Porque quando uma interface possui muitos métodos, quando uma classe for criada com sua herança, raramente 
+iremos utilizar todos os métodos, o que deixaria a classe com métodos inúteis que podem nos gerar problemas de 
+interpretação e organização do projeto. Dessa forma, o melhor a se fazer e tentar dividir esses métodos em 
+interfaces mais específicas e organizadas para o que elas realmente deveriam fazer.
+
+//----------------------------------------------------- 4 -----------------------------------------------------
+** Em qual camada um UseCase deve ficar e por quê? **
+- Ele deve ficar na camada de Application, uma vez que ele irá ajudar a orquestrar o funcionamento das outras 
+atividades implementadas e ele precisará ter acesso a quase todo o sistema.
+
+//----------------------------------------------------- 5 -----------------------------------------------------
+** Qual o principal problema de acessar: (A.B.C.D) **
+- De que um objeto deve saber apenas o necessário sobre a estrutura dos outros objetos, mas a partir do momento 
+que ele consegue acessar a estrutura completa dos outros objetos, esses dados estão sendo acessados com muita 
+facilidade e podem acabar "vazando" sem querer no meio desses acessos indevidos.
+
+//----------------------------------------------------- 6 -----------------------------------------------------
+** Qual o principal objetivo de dividir uma aplicação em camadas? **
+- Com uma aplicação dividida em camadas mais específicas, a organização dela ficará melhor e mais fácil para 
+pessoas que podem se envolver na aplicação futuramente, tanto para alterações quanto para manutenções, uma vez 
+que as camadas possuem responsabilidade específicas.
+
+//----------------------------------------------------- 7 -----------------------------------------------------
+** Qual a responsabilidade da camada Application? **
+- Ele é responsável por orquestrar o sistema como um todo, como permissões e comunicações entre as outras 
+camadas, repassando as informações necessárias e liberando o que for possível para o processo continuar com 
+segurança.
+
+//----------------------------------------------------- 8 -----------------------------------------------------
+** Qual a responsabilidade da camada Domain? **
+- A domain é responsável pelas regras de negócio e a estrutura básica do projeto, como os Models e suas interfaces. 

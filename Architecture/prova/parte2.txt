@@ -1,0 +1,11 @@
+- O arquivo do contexto se chama "Panetone.cs", o que pode ser confuso para pessoas que podem mexer no projeto 
+futuramente, assim a pessoa não teria como saber que esse arquivo possui os modelos do projeto.
+
+- O arquivo dos models possui "_Base.cs", o _ não apenas é desnecessário como também pode ser confuso no futuro 
+ao longo do projeto.
+
+- Os arquivos de model e endpoint possuem o mesmo nome, "Hero", que também seria confuso sobre qual arquivo faz 
+o que, o ideal seria "HeroModel.cs"/"HeroEndPoint.cs" para mais organização e legibilidade.
+
+- Ainda dentro de endpoints, ambos os endpoints (tanto post quando get) possuem a mesma url, o que poderia dar 
+problemas no futuro.

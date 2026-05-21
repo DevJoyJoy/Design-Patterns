@@ -1,0 +1,10 @@
+Um dos problemas seria que, ao criar a placa, precisamos adicionar o estado, e para criar o estado, também temos que criar a cidade.
+- Placa (Estado)
+- Estado (Cidade)
+- Cidade (Nome)
+
+Outro problema muito importante são os métodos dentro de ICarro. ICarro possui métodos tanto para carros elétricos como carros a combustível, logo, quando criamos um carro herdando de ICarro, todos os métodos precisam ser utilizados, mesmo que este carro não vá utilizar os métodos dos carros elétricos (como no caso do Uno). Essa dependência em métodos desnecessários violaria o Principio da Segregação de Interface (I - SOLID) e na prática, seria extremamente confuso na hora de lidar com os carros criados, uma vez que ele iria possuir métodos inúteis em seu nome.
+
+Para isso, eu criei o "ICarroCombustivel" e "ICarroeEletrico", separando os métodos que cada modelo de carro precisa somente. Também adicionei o carro "BYD" para exemplificar um modelo de carro elétrico.
+
+(Pneu não deveria ser uma IPneu e os tipos de Pneu importariam dele?)
