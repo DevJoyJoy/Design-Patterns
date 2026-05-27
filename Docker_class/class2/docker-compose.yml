@@ -1,0 +1,40 @@
+#Define os containers da aplicação
+services:
+  api:
+    #Coloca a api na rede 
+    networks:
+      - algo
+    build:
+      dockerfile: Dockerfile
+      context: .
+    #Passa de uma porta para a outra
+    ports: 
+      - 5273:2327
+    depends_on:
+      - db
+    #Define as variáveis de ambiente da API (endereço do banco, porta padrão SQL, nome, usuário e senha)
+    env_file:
+      - .env
+  #Serviço do banco
+  db:
+    networks:
+      - algo
+    #Ele vai enviar os dados para fora do container para salvar
+    volumes:
+      - dados:/var/opt/mssql
+    image:
+      mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_PID=Developer
+      - MSSQL_SA_PASSWORD=821hs91ukd_uwq&1*9j
+
+networks:
+  algo:
+
+volumes:
+  dados:
+
+
+
+      
