@@ -1,0 +1,23 @@
+services:
+  api:
+    ports:
+      - 1010:80
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    image:
+      nginx:latest
+  worker0X:
+    image: hashicorp/http-echo
+    command: "-text='MENSAGEM DO WORKER 0'"
+  worker1X:
+    image: hashicorp/http-echo
+    command: "-text='MENSAGEM DO WORKER 1'"
+  worker2X:
+    image: hashicorp/http-echo
+    command: "-text='MENSAGEM DO WORKER 2'"
+  worker3X:
+    image: hashicorp/http-echo
+    command: "-text='MENSAGEM DO WORKER 3'"
+
+
+
