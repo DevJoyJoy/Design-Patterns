@@ -1,0 +1,23 @@
+FROM mcr.microsoft.com/dotnet/sdk:9.0
+
+WORKDIR /src
+
+ENV HTTP_PROXY="http://host.docker.internal:3128"
+ENV HTTPS_PROXY="http://host.docker.internal:3128"
+
+#como temos varios pedaços da aplicação, temos que usar todos os csproj e o sln para q o
+#projeto saiba o que cada pasta faz
+COPY ./Code/Backend/*.sln .
+COPY ./Code/Backend/Iduca.Api/*.csproj ./Iduca.Api/
+COPY ./Code/Backend/Iduca.Domain/*.csproj ./Iduca.Domain/
+COPY ./Code/Backend/Iduca.Application/*.csproj ./Iduca.Application/
+COPY ./Code/Backend/Iduca.Persistence/*.csproj ./Iduca.Persistence/
+
+RUN dotnet restore
+
+COPY ./Code/Backend .
+
+
+EXPOSE 5284
+
+CMD ["dotnet", "run", "--urls=http://0.0.0.0:5284", "--project", "./Iduca.Api"]
